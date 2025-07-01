@@ -3,7 +3,7 @@ export const TRACKS = [
         title:'CHAL',
         artist:'Dabzee,Rishi Roy,Fathima Jahana',
         cover:'/images/delkochi.png',
-        src:'/songs/CHAL - Dabzee.mp3'
+        src:'/songs/CHAL.mp3'
     },
      {
         title:'Dilshad',

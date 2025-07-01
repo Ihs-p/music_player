@@ -8,8 +8,8 @@ export default {
     extend: {
          keyframes: {
         scroll: {
-          '0%': { transform: 'translatex(100%)' },
-          '100%': { transform: 'translatex(-100%)' },
+          '0%': { transform: 'translatex(90%)' },
+          '100%': { transform: 'translatex(-90%)' },
         },
       },
       animation: {

@@ -74,7 +74,7 @@ useEffect(() => {
             className="music-cover w-40 h-40 rounded-2xl shadow-[0_4px_30px_rgba(0,0,0,0.4)] object-cover mb-4"
           />
 
-          <div className="title-wrapper w-full overflow-hidden ">
+          <div className="title-wrapper w-full  overflow-hidden ">
             <h2 className="track-title text-2xl font-semibold my-2 mx-0 whitespace-nowrap animate-scroll">
               {title}
             </h2>
