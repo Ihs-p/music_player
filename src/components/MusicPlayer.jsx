@@ -101,7 +101,8 @@ useEffect(() => {
 
           
 
-          <audio ref={audioRef} src={src} preload="metadata" onLoadedMetadata={(e)=>setDuration(e.target.duration)} onTimeUpdate={(e)=>{setCurrentTime(e.target.currentTime)} }  onEnded={handleNext}/>
+          <audio ref={audioRef} src={src} preload="metadata" onLoadedMetadata={(e)=>setDuration(e.target.duration)} onTimeUpdate={(e)=>{setCurrentTime(e.target.currentTime)} }  onEnded={handleNext}   onError={(e) => console.error("AUDIO LOAD ERROR", e.target.src)}
+/>
         </div>
       </div>
     </div>
